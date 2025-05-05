@@ -1,4 +1,14 @@
 site_name: Cuadratura Gaussiana
+
+nav:
+  - index.md
+  - reference.md
+  - explanation.md
+  - tutorials.md
+
+plugins: 
+  - mkdocstrings
+
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
